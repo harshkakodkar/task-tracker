@@ -3,7 +3,7 @@ import { getToken } from './utils/auth';
 
 const api = axios.create({
   // baseURL: 'http://localhost:5000/api',
-  baseURL: 'https://task-tracker-1-496a.onrender.com',
+  baseURL: 'https://task-tracker-1-496a.onrender.com/api',
 });
 
 api.interceptors.request.use((req) => {
