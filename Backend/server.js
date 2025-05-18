@@ -9,7 +9,8 @@ const cors = require('cors');
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://task-tracker-cl8n.onrender.com'  
+  'https://task-tracker-cl8n.onrender.com',
+  'https://task-tracker-coral-eight.vercel.app'
 ];
 
 app.use(cors({
